@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Health P2P</title>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                font-family: sans-serif;
+            }
+            #bar {
+                background: #405b40;
+                height: 42px;
+                -webkit-app-region: drag;
+                position: fixed;
+                top: 0;
+                width: 100%;
+                z-index: 1000;
+            }
+            #content {
+                margin-top: 42px;
+                padding: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="bar"><pear-ctrl></pear-ctrl></div>
+        <div id="content">
+            <div id="root"></div>
+        </div>
+        <script type="module" src="./app.js"></script>
+    </body>
+</html>
