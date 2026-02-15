@@ -87,6 +87,7 @@ El proyecto está en fase inicial. Las áreas clave para contribuir:
 
 ## Estructura de Archivos
 
+```
 health-p2p/
 │
 ├── 📄 package.json           # Configuración principal y dependencias
@@ -102,6 +103,7 @@ health-p2p/
 │   └── 📁 styles/              # Estilos CSS/Tailwind
 │
 └── 📁 test/                     # Tests (estructura Pear)
+```
 
 ## 📄 Licencia
 
